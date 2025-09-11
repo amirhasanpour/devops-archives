@@ -8,7 +8,7 @@ For full documentation visit [Installing kubeadm](https://kubernetes.io/docs/set
 
 ```bash
 vi /etc/hostname
-vi /etc/hostname
+vi /etc/hosts
 ```
 
 Then reboot the node for see the changes and after that disable swap:
