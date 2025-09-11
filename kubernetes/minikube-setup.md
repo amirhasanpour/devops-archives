@@ -6,6 +6,8 @@ For full documentation visit [minikube start](https://minikube.sigs.k8s.io/docs/
 
 ## **1 - Install Docker**
 
+Set up Docker's `apt` repository
+
 ```bash
 sudo apt-get update
 sudo apt-get install ca-certificates curl
@@ -20,6 +22,12 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 sudo apt-get update
+```
+
+Install the Docker packages
+
+```bash
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
 ---
