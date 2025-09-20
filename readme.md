@@ -1,13 +1,7 @@
-# Documents
+# Archives
 
-## Linux
+- **[Linux](./linux/main.md)**
 
-### [linux section](./linux/main.md)
+- **[Docker](./docker/main.md)**
 
-## Docker
-
-### [docker section](./docker/main.md)
-
-## Kubernetes
-
-### [kubernetes section](./kubernetes/main.md)
+- **[Kubernetes](./kubernetes/main.md)**
